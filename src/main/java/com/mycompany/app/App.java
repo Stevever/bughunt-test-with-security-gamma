@@ -21,6 +21,8 @@ public class App
     private void bar(String s) throws Exception
     {
         Cipher c = Cipher.getInstance(s);
-        Cipher d = Cipher.getInstance("TESTING");
+        
+        final String abc = "123";
+        System.out.println(abc);
     }
 }
